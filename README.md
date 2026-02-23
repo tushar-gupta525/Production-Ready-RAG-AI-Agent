@@ -63,6 +63,15 @@ This architecture separates:
 It follows real production backend patterns.
 
 ---
+### 🛠️ Initial Project Setup
+- This project was initialized using uv for dependency management.
+
+uv init .
+uv add fastapi inngest llama-index-core llama-index-readers-file
+
+Additional dependencies:
+
+uv add sentence-transformers qdrant-client python-dotenv
 
 ## 🛠 Tech Stack
 
